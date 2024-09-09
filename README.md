@@ -118,7 +118,6 @@ bla bla
 ### folder structure
 
 <!-- readme-tree start -->
-
 ```
 .
 ├── .github
@@ -128,11 +127,13 @@ bla bla
 │       ├── repo-create_doctoc.yml
 │       └── repo-create_tree_readme.yml
 ├── README.md
+├── docs
+│   └── img
+│       └── screenshot_minima.png
 └── tree.bak
 
-2 directories, 6 files
+4 directories, 7 files
 ```
-
 <!-- readme-tree end -->
 
 <p align="right">(<a href="#top">back to top</a>)</p>
