@@ -14,15 +14,14 @@
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-
 **Table of Contents**
 
 - [Description](#description)
+- [Features](#features)
   - [automated Markdown indexing](#automated-markdown-indexing)
   - [automated Table of Contents (ToC)](#automated-table-of-contents-toc)
   - [Jeckyll](#jeckyll)
   - [Jeckyll Minima theme](#jeckyll-minima-theme)
-  - [Features](#features)
 - [Status](#status)
 - [Installation](#installation)
   - [Dependencies](#dependencies)
