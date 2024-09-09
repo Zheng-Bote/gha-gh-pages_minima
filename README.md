@@ -75,8 +75,6 @@ Jekyll is a blog-aware, site generator written in Ruby. It takes raw text files,
 
 [Minima v3](https://github.com/jekyll/minima) It's Jekyll's default (and first) theme. It's what you get when you run jekyll new.
 
-###
-
 ### Features
 
 - \[x] works as designed
