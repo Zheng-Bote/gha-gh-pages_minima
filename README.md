@@ -21,7 +21,6 @@
   - [automated Table of Contents (ToC)](#automated-table-of-contents-toc)
   - [Jeckyll](#jeckyll)
   - [Jeckyll Minima theme](#jeckyll-minima-theme)
-  - [](#)
   - [Features](#features)
 - [Status](#status)
 - [Installation](#installation)
