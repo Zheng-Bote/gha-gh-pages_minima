@@ -14,7 +14,6 @@
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-
 **Table of Contents**
 
 - [Description](#description)
@@ -34,9 +33,11 @@
 - [Documentation](#documentation)
   - [Github Page](#github-page)
 - [Screenshots](#screenshots)
+  - [Jeckyll theme Minima (modified)](#jeckyll-theme-minima-modified)
+  - [Minima Breadcrumbs](#minima-breadcrumbs)
+  - [Github Actions / Workflows](#github-actions--workflows)
 - [Authors and License](#authors-and-license)
   - [License](#license)
-    - [MIT](#mit)
   - [Authors](#authors)
 - [Code Contributors](#code-contributors)
 
