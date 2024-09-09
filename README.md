@@ -1,7 +1,7 @@
 <div id="top" align="center">
-<h1>GH Repo README Template</h1>
+<h1>GH-Pages with modified Jeckyll theme Minima</h1>
 
-<p>Template for new Github repos</p>
+<p>Jeckyll theme Minima with automatic Javascript Breadcrumbs</p>
 
 [Report Issue](https://github.com/Zheng-Bote/gha-gh-pages_minima/issues) [Request Feature](https://github.com/Zheng-Bote/gha-gh-pages_minima/pulls)
 
@@ -43,7 +43,7 @@
 ![GHA](https://img.shields.io/badge/Github-Action-black?logo=githubactions)
 ![Node](https://img.shields.io/badge/Node-20-blue?logo=tsnode)
 
-description of this
+Jeckyll theme Minima with automatic Javascript Breadcrumbs, Auto-TOC and Auto-Indexing
 
 ### Features
 
