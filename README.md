@@ -14,7 +14,6 @@
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-
 **Table of Contents**
 
 - [Description](#description)
@@ -23,6 +22,7 @@
   - [automated Table of Contents (ToC)](#automated-table-of-contents-toc)
   - [Jeckyll](#jeckyll)
   - [Jeckyll Minima theme](#jeckyll-minima-theme)
+  - [automated Breadcrumbs in GH-Pages](#automated-breadcrumbs-in-gh-pages)
 - [Status](#status)
 - [Installation](#installation)
   - [Dependencies](#dependencies)
