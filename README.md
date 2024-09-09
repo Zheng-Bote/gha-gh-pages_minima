@@ -57,14 +57,17 @@ description of this
 ## Status
 
 ![Status](https://img.shields.io/badge/Status-works-green)
-![GitHub Release Date](https://img.shields.io/github/release-date/Zheng-Bote/repo-template)
+![GitHub Release Date](https://img.shields.io/github/release-date/Zheng-Bote/gha-gh-pages_minima)
 
-![GitHub Issues](https://img.shields.io/github/issues/Zheng-Bote/repo-template)
-![GitHub Pull Requests](https://img.shields.io/github/issues-pr/Zheng-Bote/repo-template)
+![GitHub Issues](https://img.shields.io/github/issues/Zheng-Bote/gha-gh-pages_minima)
+![GitHub Pull Requests](https://img.shields.io/github/issues-pr/Zheng-Bote/gha-gh-pages_minima)
 
-[![Repo - create Repo-Tree in README.md](https://github.com/Zheng-Bote/repo-template/actions/workflows/repo-create_tree_readme.yml/badge.svg)](https://github.com/Zheng-Bote/repo-template/actions/workflows/repo-create_tree_readme.yml)
-[![Repo - add Actions In/Out to README](https://github.com/Zheng-Bote/repo-template/actions/workflows/repo-actions_docu.yml/badge.svg)](https://github.com/Zheng-Bote/repo-template/actions/workflows/repo-actions_docu.yml)
-[![Repo - create TOC of README](https://github.com/Zheng-Bote/repo-template/actions/workflows/repo-create_doctoc.yml/badge.svg)](https://github.com/Zheng-Bote/repo-template/actions/workflows/repo-create_doctoc.yml)
+[![Repo - create Repo-Tree in README.md](https://github.com/Zheng-Bote/gha-gh-pages_minima/actions/workflows/repo-create_tree_readme.yml/badge.svg)](https://github.com/Zheng-Bote/gha-gh-pages_minima/actions/workflows/repo-create_tree_readme.yml)
+[![Repo - add Actions In/Out to README](https://github.com/Zheng-Bote/gha-gh-pages_minima/actions/workflows/repo-actions_docu.yml/badge.svg)](https://github.com/Zheng-Bote/gha-gh-pages_minima/actions/workflows/repo-actions_docu.yml)
+[![Repo - create TOC of README](https://github.com/Zheng-Bote/gha-gh-pages_minima/actions/workflows/repo-create_doctoc.yml/badge.svg)](https://github.com/Zheng-Bote/gha-gh-pages_minima/actions/workflows/repo-create_doctoc.yml)
+
+[![GHP - create markdown indexes for GH Pages](https://github.com/Zheng-Bote/gha-gh-pages_minima/actions/workflows/ghp-markdown_index.yml/badge.svg)](https://github.com/Zheng-Bote/gha-gh-pages_minima/actions/workflows/ghp-markdown_index.yml)
+[GH-Page](https://zheng-bote.github.io/gha-gh-pages_minima/)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
