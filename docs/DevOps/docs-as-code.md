@@ -1,4 +1,5 @@
 # HowTo docs
+
 <span id="top"></span>
 
 ## brief
@@ -16,7 +17,7 @@ documentation as code approach
 - add one or more files to a folder
 - don't name your files README.md
 
-## long  description
+## long description
 
 **docs-as-code** approach:
 
@@ -25,7 +26,7 @@ Handle your (developer) documentation like code.
 - checkout the branch _gh-pages_
 - add / modify content
 - push it into the repo
-- wait 1 or 2 minutes (workflow index, publish to pages)
+- wait 1 or 2 minutes (workflows indexing and ToC, publish to pages)
 
 ## Links
 
@@ -34,7 +35,6 @@ Handle your (developer) documentation like code.
 [docToolchain - Create awesome docs the easy way!](https://doctoolchain.org/docToolchain)
 
 [arc42 - document your software architecture](https://arc42.org/)
-
 
 <hr>
 
