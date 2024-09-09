@@ -1,7 +1,4 @@
 # 
-Dev Documentation
-
-> Developer Docu, Changelog, Software Bill of Material (SBoM)
 
 
 ## Categories
