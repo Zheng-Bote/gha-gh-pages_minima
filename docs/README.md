@@ -6,6 +6,6 @@ Dev Documentation
 
 ## Categories
 - [DevOps](./DevOps/README.md)
-- [Governent](./Governent/README.md)
+- [Governance](./Governance/README.md)
 
 ## Documents
