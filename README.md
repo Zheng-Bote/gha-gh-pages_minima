@@ -14,6 +14,7 @@
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+
 **Table of Contents**
 
 - [Description](#description)
@@ -297,6 +298,7 @@ function start() {
 ### folder structure
 
 <!-- readme-tree start -->
+
 ```
 .
 ├── .github
@@ -320,6 +322,7 @@ function start() {
 
 4 directories, 14 files
 ```
+
 <!-- readme-tree end -->
 
 <p align="right">(<a href="#top">back to top</a>)</p>
@@ -327,20 +330,23 @@ function start() {
 ## Documentation
 
 ```mermaid
-graph TD;
-    Configure_Repo_Settings-->Pages;
-    Pages-->Branch;
+flowchart TD
+    A[Repo-Settings] --> B[Pages]
+    B-->C(Branch)-->D(Folder)
 ```
 
 ```mermaid
-graph TD;
-    add_or_modify_Content-->Push_to_gh-pages;
+flowchart TD
+    A[Branch 'gh-pages'] --> B(add or modify content)
+    B --> C(push to GH Repo)
+    C-->D(Deployment)-->E[GH-Pages]
 ```
 
 ```mermaid
-graph TD;
-    Workflow-. parameter .->Callable_Workflow;
-    Callable_Workflow-- parameter -->Action;
+flowchart TD
+    A(push to central GH-Repo) --> B(Workflow 'markdown indexing')
+    B --> C(Workflow 'create ToC')
+    C-->D(GH Workflow 'pages-build-deployment')-->E[GH-Pages]
 ```
 
 ### Github Page
