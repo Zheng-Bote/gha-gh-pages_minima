@@ -44,12 +44,6 @@
 
 <hr>
 
-> \[!NOTE]
-> This README is still under constrcution and incomplete.
-
-> \[!TIP]
-> see branch _gh-pages_ as well as the content of `.github/workflows`.
-
 ## Description
 
 Jeckyll theme Minima with automatic Javascript Breadcrumbs, Auto-TOC and Auto-Indexing
@@ -119,11 +113,185 @@ easy to use _Javascript function_, documentation comming soon.
 
 ## Installation
 
-bla bla
+> \[!TIP]
+> see branch _gh-pages_ as well as the content of `.github/workflows`.
 
-### Dependencies
+### Github repo settings
 
-bla bla
+#### Create a branch `gh-pages`
+
+- via Github UI
+
+  or
+
+- command line
+
+```bash
+git branch gh-pages
+git push -all
+```
+
+#### configure GH-Pages in Settings
+
+- Source `Deploy from a branch`
+- Branch `gh-pages`
+- folder `docs`
+
+> \[!TIP]
+> Content modifications on Branch _gh-pages_ will be automatically deployed from Github to gh-pages.
+> Automatical deployment via Github works only on branch `gh-pages`
+
+<img src="./docs/img/screenshot_settings_pages.png" maxwidth="400px" height="auto">
+
+## Configuration
+
+Clone the repo and checkout branch `gh-pages`
+
+```bash
+git clone git@github.com:Zheng-Bote/gha-gh-pages_minima.git
+git checkout gh-pages
+```
+
+### Configuration of Jeckyll theme Minima
+
+In branch `gh-pages` in folder `docs` configure / customize file `_config.yml`. For details see [Minima v3](https://github.com/jekyll/minima)
+
+## GH-Page content (folders and pages)
+
+Create folder structure within folder `docs` and add one or more markdown files.
+
+> \[!WARNING]
+> Don't name your markdown files `README.md`.
+> Filename `README.md` is reserved for GH-Action automatic markdown indexing
+
+Push your modification in branch `gh-pages` back to your central Github respository
+
+> \[!NOTE]
+> If your GH-Pages in `Settings` configured for branch `gh-pages`, Github will deploy your pages automatically.
+> Otherwise you have to handle your GH-PAges deployment yourself
+
+After content mdoifations and push back to your central GH repo, wait some time so the GH Actions can do their jobs.
+
+## Dependencies
+
+### automated Markdown indexing
+
+![GHA](https://img.shields.io/badge/Github-Action-black?logo=githubactions) `.github/workflows/ghp-markdown_index.yml`
+
+**Create / Update markdown indexes for GH Pages**
+
+Github Marketplace [Markdown action: create indexes](https://github.com/marketplace/actions/markdown-action-create-indexes)
+
+### automated Table of Contents (ToC)
+
+![Node](https://img.shields.io/badge/Node-20-blue?logo=tsnode)
+![GHA](https://img.shields.io/badge/Github-Action-black?logo=githubactions) `.github/workflows/repo-create_doctoc.yml`
+
+**Create / Update Table of Contents**
+
+This is a GitHub Actions to generate TOC (Table of Contents), which executes DocToc and commits if changed.
+
+[gha-toc-generator](https://github.com/Zheng-Bote/gha-toc-generator)
+(_fork from [technote-space](https://github.com/technote-space/toc-generator)_)
+
+### Jeckyll
+
+Jekyll is a blog-aware, site generator written in Ruby. It takes raw text files, runs it through a renderer and produces a publishable static website. **Perfect for Github Pages.**
+
+[Jeckyll](https://jekyllrb.com/docs/themes/) has an extensive theme system that allows you to leverage community-maintained templates and styles to customize your site’s presentation. Jekyll themes specify plugins and package up assets, layouts, includes, and stylesheets in a way that can be overridden by your site’s content.
+
+### Jeckyll Minima theme
+
+[Minima v3](https://github.com/jekyll/minima) It's Jekyll's default (and first) theme. It's what you get when you run jekyll new.
+
+### Breadcrumbs in Minima GH-Pages
+
+> \[!NOTE]
+> There is currently (2024-09) a bug in the Minima v3 theme so custom header content is not correctly parsed [Minima v3 issues](https://github.com/jekyll/minima/issues).
+> Due to this bug, the Breadcrumb function is integrated within `docs/_includes/header.html`
+
+```css
+<style>
+    ul.breadcrumb {
+        padding: 10px 16px;
+        list-style: none;
+        background-color: #eee;
+    }
+
+    ul.breadcrumb li {
+        display: inline;
+        font-size: 1rem;
+    }
+
+    ul.breadcrumb li+li:before {
+        padding: 8px;
+        color: black;
+        content: ">";
+    }
+
+    ul.breadcrumb li a {
+        color: #0275d8;
+        text-decoration: none;
+    }
+
+    ul.breadcrumb li a:hover {
+        color: #01447e;
+        text-decoration: underline;
+    }
+</style>
+```
+
+```javascript
+<script>
+window.onload = start;
+
+function start() {
+  const url = window.location;
+  const origin = "{{ site.page_url }}/";
+  const path = url.pathname;
+  let a_arr = path.split("/");
+  let html = "false";
+
+  const arr = a_arr.filter(rmEmpty);
+
+  if (path.endsWith(".html")) {
+    arr.length = arr.length - 1;
+  }
+
+  const bread = document.getElementById("bread");
+
+  bread.innerHTML = `<li><a href="${origin}">Main</a>`;
+
+  if (a_arr.length === 0) {
+    return;
+  }
+
+  const uri_arr = [];
+  for (let i = 1; i < arr.length; i++) {
+    uri_arr.push(arr[i]);
+    let text = origin;
+    text += uri_arr.join("/");
+
+    if (i === arr.length - 1) {
+      if (path.endsWith(".html")) {
+        bread.innerHTML += `<li><a href="${text}">${arr[i]}</a></li>`;
+      } else {
+        bread.innerHTML += `<li>${arr[i]}</li>`;
+      }
+    } else {
+      bread.innerHTML += `<li><a href="${text}">${arr[i]}</a></li>`;
+    }
+  }
+
+  function rmEmpty(item) {
+    if (item.length > 0) {
+      return item;
+    }
+  }
+}
+
+</script>
+```
 
 ### folder structure
 
@@ -150,39 +318,18 @@ bla bla
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-## Usage/Examples
+## Documentation
 
-```html
-<mark> under constrcution </mark>
+```mermaid
+graph TD;
+    Configure_Repo_Settings-->Pages;
+    Pages-->Branch;
 ```
 
-<p align="right">(<a href="#top">back to top</a>)</p>
-
-## API Reference
-
-### Parameters
-
-<!-- only for actions repo -->
-
-<!-- ## Inputs -->
-
-<!-- ## Outputs -->
-
-        <rz-footer></rz-footer>
-
-<!---->
-
-| Parameter    | Type     | Description                          |
-| :----------- | :------- | :----------------------------------- |
-| `name`       | `string` | _Optional_ name-of-copyright-holder  |
-| `created`    | `string` | _Optional_ <YYYY>                    |
-| `version`    | `string` | _Optional_ \<v0.0.0>                 |
-| `link_left`  | `string` | _Optional_ link-to-contact-page      |
-| `link_right` | `string` | _Optional_ link-to-legal-notice-page |
-
-<p align="right">(<a href="#top">back to top</a>)</p>
-
-## Documentation
+```mermaid
+graph TD;
+    add_or_modify_Content-->Push_to_gh-pages;
+```
 
 ```mermaid
 graph TD;
@@ -192,28 +339,18 @@ graph TD;
 
 ### Github Page
 
-[![GH-Page](https://img.shields.io/badge/Github-Pages-black?logo=github)](https://www.github.com/Zheng-Bote)
+[![GH-Page](https://img.shields.io/badge/Github-Page-black?logo=github)](https://zheng-bote.github.io/gha-gh-pages_minima/)
+https://zheng-bote.github.io/gha-gh-pages_minima/
 
-see also: <https://linktodocumentation>
-
-> \[!NOTE]
-> Useful information that users should know, even when skimming content.
-
-> \[!TIP]
-> Helpful advice for doing things better or more easily.
-
-> \[!IMPORTANT]
-> Key information users need to know to achieve their goal.
-
-> \[!WARNING]
-> Urgent info that needs immediate user attention to avoid problems.
-
-> \[!CAUTION]
-> Advises about risks or negative outcomes of certain actions.
+see also: <https://www.github.com/Zheng-Bote/gha-gh-pages_minima>
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 ## Screenshots
+
+### Settings - Pages
+
+<img src="./docs/img/screenshot_settings_pages.png" maxwidth="400px" height="auto">
 
 ### Jeckyll theme Minima (modified)
 
@@ -221,15 +358,13 @@ see also: <https://linktodocumentation>
 
 <img src="./docs/img/screenshot_jeckyll_minima.png" maxwidth="400px" height="auto">
 
-<img src="./docs/img/screenshot_jeckyll_minima.png" maxwidth="400px" height="auto">
-
 ### Minima Breadcrumbs
 
-**_Breadcrumbs folder-level_**
+#### Breadcrumbs folder-level
 
 <img src="./docs/img/screenshot_breadcrumbs_1.png" maxwidth="400px" height="auto">
 
-**_Breadcrumbs page-level_**
+#### Breadcrumbs page-level
 
 <img src="./docs/img/screenshot_breadcrumbs_2.png" maxwidth="400px" height="auto">
 
@@ -240,6 +375,8 @@ see also: <https://linktodocumentation>
 <img src="./docs/img/screenshot_markdown-indexes.png" maxwidth="400px" height="auto">
 
 <img src="./docs/img/screenshot_toc.png" maxwidth="400px" height="auto">
+
+<img src="./docs/img/screenshot_deployment.png" maxwidth="400px" height="auto">
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
