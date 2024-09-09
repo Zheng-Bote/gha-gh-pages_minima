@@ -14,7 +14,6 @@
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-
 **Table of Contents**
 
 - [Description](#description)
@@ -34,9 +33,11 @@
 - [Documentation](#documentation)
   - [Github Page](#github-page)
 - [Screenshots](#screenshots)
+  - [Jeckyll theme Minima (modified)](#jeckyll-theme-minima-modified)
+  - [Minima Breadcrumbs](#minima-breadcrumbs)
+  - [Github Actions / Workflows](#github-actions--workflows)
 - [Authors and License](#authors-and-license)
   - [License](#license)
-    - [MIT](#mit)
   - [Authors](#authors)
 - [Code Contributors](#code-contributors)
 
@@ -296,7 +297,6 @@ function start() {
 ### folder structure
 
 <!-- readme-tree start -->
-
 ```
 .
 ├── .github
@@ -308,12 +308,18 @@ function start() {
 ├── README.md
 ├── docs
 │   └── img
-│       └── screenshot_minima.png
+│       ├── screenshot_breadcrumbs_1.png
+│       ├── screenshot_breadcrumbs_2.png
+│       ├── screenshot_deployment.png
+│       ├── screenshot_folder-structure.png
+│       ├── screenshot_jeckyll_minima.png
+│       ├── screenshot_markdown-indexes.png
+│       ├── screenshot_minima.png
+│       └── screenshot_toc.png
 └── tree.bak
 
-4 directories, 7 files
+4 directories, 14 files
 ```
-
 <!-- readme-tree end -->
 
 <p align="right">(<a href="#top">back to top</a>)</p>
