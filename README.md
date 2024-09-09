@@ -14,6 +14,7 @@
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+
 **Table of Contents**
 
 - [Description](#description)
@@ -91,6 +92,10 @@ Jekyll is a blog-aware, site generator written in Ruby. It takes raw text files,
 ### Jeckyll Minima theme
 
 [Minima v3](https://github.com/jekyll/minima) It's Jekyll's default (and first) theme. It's what you get when you run jekyll new.
+
+### automated Breadcrumbs in GH-Pages
+
+easy to use _Javascript function_, documentation comming soon.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
