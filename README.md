@@ -308,7 +308,6 @@ function start() {
 ### folder structure
 
 <!-- readme-tree start -->
-
 ```
 .
 ├── .github
@@ -327,12 +326,12 @@ function start() {
 │       ├── screenshot_jeckyll_minima.png
 │       ├── screenshot_markdown-indexes.png
 │       ├── screenshot_minima.png
+│       ├── screenshot_settings_pages.png
 │       └── screenshot_toc.png
 └── tree.bak
 
-4 directories, 14 files
+4 directories, 15 files
 ```
-
 <!-- readme-tree end -->
 
 <p align="right">(<a href="#top">back to top</a>)</p>
