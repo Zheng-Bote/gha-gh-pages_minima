@@ -30,7 +30,6 @@
 - [Screenshots](#screenshots)
 - [Authors and License](#authors-and-license)
   - [License](#license)
-    - [Apache 2.0](#apache-20)
     - [MIT](#mit)
   - [Authors](#authors)
 - [Code Contributors](#code-contributors)
