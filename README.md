@@ -14,6 +14,7 @@
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+
 **Table of Contents**
 
 - [Description](#description)
@@ -40,15 +41,48 @@
 
 ## Description
 
-![GHA](https://img.shields.io/badge/Github-Action-black?logo=githubactions)
-![Node](https://img.shields.io/badge/Node-20-blue?logo=tsnode)
-
 Jeckyll theme Minima with automatic Javascript Breadcrumbs, Auto-TOC and Auto-Indexing
+
+<img src="./docs/img/screenshot_minima.png" maxwidth="400px" height="auto">
+
+### automated Markdown indexing
+
+![GHA](https://img.shields.io/badge/Github-Action-black?logo=githubactions) `.github/workflows/ghp-markdown_index.yml`
+
+**Create / Update markdown indexes for GH Pages**
+
+Github Marketplace [Markdown action: create indexes](https://github.com/marketplace/actions/markdown-action-create-indexes)
+
+### automated Table of Contents (ToC)
+
+![Node](https://img.shields.io/badge/Node-20-blue?logo=tsnode)
+![GHA](https://img.shields.io/badge/Github-Action-black?logo=githubactions) `.github/workflows/repo-create_doctoc.yml`
+
+**Create / Update Table of Contents**
+
+This is a GitHub Actions to generate TOC (Table of Contents), which executes DocToc and commits if changed.
+
+[gha-toc-generator](https://github.com/Zheng-Bote/gha-toc-generator)
+(_fork from [technote-space](https://github.com/technote-space/toc-generator)_)
+
+### Jeckyll
+
+Jekyll is a blog-aware, site generator written in Ruby. It takes raw text files, runs it through a renderer and produces a publishable static website. **Perfect for Github Pages.**
+
+[Jeckyll](https://jekyllrb.com/docs/themes/) has an extensive theme system that allows you to leverage community-maintained templates and styles to customize your site’s presentation. Jekyll themes specify plugins and package up assets, layouts, includes, and stylesheets in a way that can be overridden by your site’s content.
+
+### Jeckyll Minima theme
+
+[Minima v3](https://github.com/jekyll/minima) It's Jekyll's default (and first) theme. It's what you get when you run jekyll new.
+
+###
 
 ### Features
 
 - \[x] works as designed
 - \[ ] no bugs
+- \[x] Github Action for automated markdown indexing
+- \[x] automated Breadcrumbs
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -80,6 +114,7 @@ bla bla
 ### folder structure
 
 <!-- readme-tree start -->
+
 ```
 .
 ├── .github
@@ -93,6 +128,7 @@ bla bla
 
 2 directories, 6 files
 ```
+
 <!-- readme-tree end -->
 
 <p align="right">(<a href="#top">back to top</a>)</p>
