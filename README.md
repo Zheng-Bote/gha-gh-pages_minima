@@ -6,7 +6,6 @@
 [Report Issue](https://github.com/Zheng-Bote/repo-template/issues) [Request Feature](https://github.com/Zheng-Bote/repo-template/pulls)
 
 [![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
-[![Apache License](https://img.shields.io/badge/License-Apache_2.0-yellow.svg)](https://choosealicense.com/licenses/apache/)
 ![GitHub Created At](https://img.shields.io/github/created-at/Zheng-Bote/repo-template)
 
 </div>
@@ -172,27 +171,11 @@ see also: <https://linktodocumentation>
 
 ### License
 
-#### Apache 2.0
-
-Copyright \[yyyy] \[name of copyright owner]
-
-Licensed under the Apache License, Version 2.0 (the "License");
-you may not use this file except in compliance with the License.
-You may obtain a copy of the License at
-
-       http://www.apache.org/licenses/LICENSE-2.0
-
-Unless required by applicable law or agreed to in writing, software
-distributed under the License is distributed on an "AS IS" BASIS,
-WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-See the License for the specific language governing permissions and
-limitations under the License.
-
 #### MIT
 
 MIT License
 
-Copyright (c) \[year] \[fullname]
+Copyright (c) 2024 Zheng Robert
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -220,7 +203,7 @@ SOFTWARE.
 
 ## Code Contributors
 
-![Contributors](https://img.shields.io/github/contributors/Zheng-Bote/repo-template?color=dark-green)
+![Contributors](https://img.shields.io/github/contributors/Zheng-Bote/gha-gh-pages_minima?color=dark-green)
 
 [![Zheng Robert](https://img.shields.io/badge/Github-Zheng_Robert-black?logo=github)](https://www.github.com/Zheng-Bote)
 
