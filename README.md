@@ -79,7 +79,6 @@ bla bla
 ### folder structure
 
 <!-- readme-tree start -->
-
 ```
 .
 ├── .github
@@ -92,7 +91,6 @@ bla bla
 
 2 directories, 5 files
 ```
-
 <!-- readme-tree end -->
 
 <p align="right">(<a href="#top">back to top</a>)</p>
