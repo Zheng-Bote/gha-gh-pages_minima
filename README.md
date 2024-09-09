@@ -14,6 +14,7 @@
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+
 **Table of Contents**
 
 - [Description](#description)
@@ -214,7 +215,31 @@ see also: <https://linktodocumentation>
 
 ## Screenshots
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+### Jeckyll theme Minima (modified)
+
+<img src="./docs/img/screenshot_minima.png" maxwidth="400px" height="auto">
+
+<img src="./docs/img/screenshot_jeckyll_minima.png" maxwidth="400px" height="auto">
+
+<img src="./docs/img/screenshot_jeckyll_minima.png" maxwidth="400px" height="auto">
+
+### Minima Breadcrumbs
+
+**_Breadcrumbs folder-level_**
+
+<img src="./docs/img/screenshot_breadcrumbs_1.png" maxwidth="400px" height="auto">
+
+**_Breadcrumbs page-level_**
+
+<img src="./docs/img/screenshot_breadcrumbs_2.png" maxwidth="400px" height="auto">
+
+### Github Actions / Workflows
+
+<img src="./docs/img/screenshot_folder-structure.png" maxwidth="400px" height="auto">
+
+<img src="./docs/img/screenshot_markdown-indexes.png" maxwidth="400px" height="auto">
+
+<img src="./docs/img/screenshot_toc.png" maxwidth="400px" height="auto">
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -222,9 +247,7 @@ see also: <https://linktodocumentation>
 
 ### License
 
-#### MIT
-
-MIT License
+**MIT License**
 
 Copyright (c) 2024 Zheng Robert
 
