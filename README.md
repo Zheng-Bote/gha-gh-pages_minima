@@ -3,10 +3,10 @@
 
 <p>Template for new Github repos</p>
 
-[Report Issue](https://github.com/Zheng-Bote/repo-template/issues) [Request Feature](https://github.com/Zheng-Bote/repo-template/pulls)
+[Report Issue](https://github.com/Zheng-Bote/gha-gh-pages_minima/issues) [Request Feature](https://github.com/Zheng-Bote/gha-gh-pages_minima/pulls)
 
 [![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
-![GitHub Created At](https://img.shields.io/github/created-at/Zheng-Bote/repo-template)
+![GitHub Created At](https://img.shields.io/github/created-at/Zheng-Bote/gha-gh-pages_minima)
 
 </div>
 
