@@ -14,6 +14,7 @@
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+
 **Table of Contents**
 
 - [Description](#description)
@@ -42,11 +43,25 @@
 
 <hr>
 
+> \[!NOTE]
+> This README is still under constrcution and incomplete.
+
+> \[!TIP]
+> see branch _gh-pages_ as well as the content of `.github/workflows`.
+
 ## Description
 
 Jeckyll theme Minima with automatic Javascript Breadcrumbs, Auto-TOC and Auto-Indexing
 
 <img src="./docs/img/screenshot_minima.png" maxwidth="400px" height="auto">
+
+## Features
+
+- \[x] works as designed
+- \[ ] no bugs
+- \[x] Github Action for automated markdown indexing
+- \[x] Github Action for automated TOC
+- \[x] automated Breadcrumbs in GH-Pages
 
 ### automated Markdown indexing
 
@@ -78,13 +93,6 @@ Jekyll is a blog-aware, site generator written in Ruby. It takes raw text files,
 
 [Minima v3](https://github.com/jekyll/minima) It's Jekyll's default (and first) theme. It's what you get when you run jekyll new.
 
-### Features
-
-- \[x] works as designed
-- \[ ] no bugs
-- \[x] Github Action for automated markdown indexing
-- \[x] automated Breadcrumbs
-
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 ## Status
@@ -115,6 +123,7 @@ bla bla
 ### folder structure
 
 <!-- readme-tree start -->
+
 ```
 .
 ├── .github
@@ -131,6 +140,7 @@ bla bla
 
 4 directories, 7 files
 ```
+
 <!-- readme-tree end -->
 
 <p align="right">(<a href="#top">back to top</a>)</p>
