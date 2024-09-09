@@ -134,9 +134,7 @@ easy to use _Javascript function_, documentation comming soon.
 #### Create a branch `gh-pages`
 
 - via Github UI
-
   or
-
 - command line
 
 ```bash
@@ -181,9 +179,9 @@ Push your modification in branch `gh-pages` back to your central Github resposit
 
 > \[!NOTE]
 > If your GH-Pages in `Settings` configured for branch `gh-pages`, Github will deploy your pages automatically.
-> Otherwise you have to handle your GH-PAges deployment yourself
+> Otherwise you have to handle your GH-Pages deployment yourself
 
-After content mdoifations and push back to your central GH repo, wait some time so the GH Actions can do their jobs.
+After content modifications and pushed back to your central GH repo, wait some time so the GH Actions can do their jobs.
 
 ## Dependencies
 
@@ -220,7 +218,7 @@ Jekyll is a blog-aware, site generator written in Ruby. It takes raw text files,
 ### Breadcrumbs in Minima GH-Pages
 
 > \[!NOTE]
-> There is currently (2024-09) a bug in the Minima v3 theme so custom header content is not correctly parsed [Minima v3 issues](https://github.com/jekyll/minima/issues).
+> There is currently (2024-09) a bug in the Minima v3 theme so custom header content is not correctly parsed. See also [Minima v3 issues](https://github.com/jekyll/minima/issues).
 > Due to this bug, the Breadcrumb function is integrated within `docs/_includes/header.html`
 
 ```css
